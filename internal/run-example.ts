@@ -73,7 +73,7 @@ program
 
       try {
         execSync(
-          `pnpm tsx --env-file=.env ${mainFilePath}`,
+          `bun tsx --env-file=.env ${mainFilePath}`,
           {
             stdio: "inherit",
           },
